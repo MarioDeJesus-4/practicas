@@ -1,0 +1,15 @@
+# Ignorar todos los archivos .dat
+*.dat
+*.png
+
+# Ignorar carpetas generadas por el código
+/output/
+RungeEsfe/
+EulerEsfe/
+
+# Ignorar ejecutables
+*.out
+*.exe
+
+# Ignorar backups
+*~
