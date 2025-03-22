@@ -1,6 +1,7 @@
-# Ignorar todos los archivos .dat
+# Ignorar todos los archivos .dat y achivos .png y videos mp4
 *.dat
 *.png
+*.mp4
 
 # Ignorar carpetas generadas por el código
 /output/
@@ -13,3 +14,10 @@ EulerEsfe/
 
 # Ignorar backups
 *~
+
+# Ignorar ejecutables por defecto
+a.out
+
+# Ignorar cualquier archivo sin extensión (muy comunes en ejecutables C)
+*.[!c]*
+!*.c
